@@ -1,3 +1,4 @@
+
 <?php 
 
 
@@ -26,7 +27,8 @@ $privateKey2 	= 'DANFOVBWEVCB432HNFC032FH2QADJ'; // user define key2
     $output2= base64_encode($result2);  // output2 is a encripted value
     
     
-    echo"this is output 1 encoded: $output1"; '<br/>';
+    echo"this is output 1 encoded: $output1"; 
     echo"this is output 2 encoded:: $output2";
 
+//encodding complete for test values above.
     ?>
