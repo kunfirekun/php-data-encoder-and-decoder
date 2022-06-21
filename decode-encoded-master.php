@@ -57,6 +57,6 @@ $ivalue2 = substr(hash('sha256', $secretKey2), 0, 16); // sha256 is hash_hmac_al
 
  $output_decoded2 = openssl_decrypt(base64_decode($stringEncrypt2), $encryptMethod2, $key2, 0, $ivalue2);
 
-echo"output 1 decoded: $output_decoded2"; //output1 decoded succesfully
+echo"output 2 decoded: $output_decoded2"; //output1 decoded succesfully
 
     ?>
