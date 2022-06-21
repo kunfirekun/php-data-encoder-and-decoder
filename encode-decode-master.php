@@ -17,8 +17,8 @@ $privateKey1 	= 'NOWEINF32523EFW63HGBERV34235'; // user define key1
 $confirm_code_encode='12345'; // user defined value2
 $privateKey2 	= 'DANFOVBWEVCB432HNFC032FH2QADJ'; // user define key2
     $secretKey2		= 'g124hbfo02fg'; // user define secret key2
-    $encryptMethod3      = "AES-256-CBC";
-    $string1 		=$confirm_code_encode ; // user define value2
+    $encryptMethod2     = "AES-256-CBC";
+    $string2		=$confirm_code_encode ; // user define value2
 
     $key2 = hash('sha256', $privateKey2);
     $ivalue2 = substr(hash('sha256', $secretKey2), 0, 16); // sha256 is hash_hmac_algo
