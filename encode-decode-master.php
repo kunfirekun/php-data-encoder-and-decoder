@@ -30,5 +30,5 @@ $privateKey2 	= 'DANFOVBWEVCB432HNFC032FH2QADJ'; // user define key2
     echo"this is output 1 encoded: $output1"; 
     echo"this is output 2 encoded:: $output2";
 
-//encodding complete for test values above.
+//encoding complete for test values above.
     ?>
