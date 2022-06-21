@@ -1,6 +1,4 @@
 <?php 
-
-
 $email_encode='test@gmail.com'; // user defined value1
 $privateKey1 	= 'NOWEINF32523EFW63HGBERV34235'; // user define key1
     $secretKey1		= 'hd203dh2bx2zp'; // user define secret key1
