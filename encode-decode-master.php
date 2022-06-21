@@ -32,17 +32,4 @@ $privateKey2 	= 'DANFOVBWEVCB432HNFC032FH2QADJ'; // user define key2
 
 //encoding complete for test values above.
 
-//decrypt code for output1
-$privateKey 	= 'NOWEINF32523EFW63HGBERV34235'; // user define key
-$secretKey 		= 'hd203dh2bx2zp'; // user define secret key
-$encryptMethod      = "AES-256-CBC";
-$stringEncrypt      = $output1; // user encrypt value
-
-$key    = hash('sha256', $privateKey);
-$ivalue = substr(hash('sha256', $secretKey), 0, 16); // sha256 is hash_hmac_algo
-
- $output_decoded = openssl_decrypt(base64_decode($stringEncrypt), $encryptMethod, $key, 0, $ivalue);
-
-echo"output 1 decoded: $output_decoded";
-
     ?>
