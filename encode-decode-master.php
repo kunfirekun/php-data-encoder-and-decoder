@@ -3,8 +3,8 @@
 
 
 $email_encode='test@gmail.com'; // user defined value1
-$privateKey1 	= 'NOWEINF32523EFW63HGBERV'; // user define key1
-    $secretKey1		= 'g124hbfo02fg'; // user define secret key1
+$privateKey1 	= 'NOWEINF32523EFW63HGBERV203DNWO'; // user define key1
+    $secretKey1		= 'd1pv438ncwpac'; // user define secret key1
     $encryptMethod1      = "AES-256-CBC";
     $string1 		=$email_encode ; // user define value2
 
