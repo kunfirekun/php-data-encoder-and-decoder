@@ -1,4 +1,3 @@
-
 <?php 
 
 
@@ -30,7 +29,7 @@ $privateKey2 	= 'DANFOVBWEVCB432HNFC032FH2QADJ'; // user define key2
     echo"this is output 1 encoded: $output1"; 
     echo"this is output 2 encoded: $output2";
 
-//encoding complete for test values above script is ready for use
+//encoding complete for test values 
 
 
 //decrypt code for output1
