@@ -29,4 +29,7 @@ $ivalue2 = substr(hash('sha256', $secretKey2), 0, 16); // sha256 is hash_hmac_al
 
 echo"output 2 decoded: $output_decoded2"; //output1 decoded succesfully
 
+
+////dencoding complete for test values above.
+
     ?>
