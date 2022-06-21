@@ -1,10 +1,9 @@
-
 <?php 
 
 
 $email_encode='test@gmail.com'; // user defined value1
-$privateKey1 	= 'NOWEINF32523EFW63HGBERV203DNWO'; // user define key1
-    $secretKey1		= 'd1pv438ncwpac'; // user define secret key1
+$privateKey1 	= 'NOWEINF32523EFW63HGBERV34235'; // user define key1
+    $secretKey1		= 'hd203dh2bx2zp'; // user define secret key1
     $encryptMethod1      = "AES-256-CBC";
     $string1 		=$email_encode ; // user define value2
 
@@ -13,7 +12,7 @@ $privateKey1 	= 'NOWEINF32523EFW63HGBERV203DNWO'; // user define key1
     $result1 = openssl_encrypt($string1, $encryptMethod1, $key1, 0, $ivalue1);
     $output1= base64_encode($result1);  // output1 is a encripted value
 
-    echo"$output1";
+    
 
 $confirm_code_encode='12345'; // user defined value2
 $privateKey2 	= 'DANFOVBWEVCB432HNFC032FH2QADJ'; // user define key2
@@ -25,7 +24,9 @@ $privateKey2 	= 'DANFOVBWEVCB432HNFC032FH2QADJ'; // user define key2
     $ivalue2 = substr(hash('sha256', $secretKey2), 0, 16); // sha256 is hash_hmac_algo
     $result2 = openssl_encrypt($string2, $encryptMethod2, $key2, 0, $ivalue2);
     $output2= base64_encode($result2);  // output2 is a encripted value
-
-    echo"$output2";
+    
+    
+    echo"this is output 1 encoded: $output1"; '<br/>';
+    echo"this is output 2 encoded:: $output2";
 
     ?>
