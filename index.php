@@ -5,7 +5,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>A Basic HTML5 Template</title>
+        <title>Encryption And Decryption Demo Page</title>
         <meta name="description" content="Bora Designs Work In Progress ">
         <meta name="author" content="Dan Okello">
 
@@ -28,7 +28,7 @@
     <form  method='post' action='test-inputs.php'>
         <label></label>
         <input type='text' name='username'>
-        <button name='encrypt'></button>
+        <button name='encrypt'>ENCRYPT</button>
 
     </form>
 

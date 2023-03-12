@@ -3,10 +3,11 @@ require 'config.php';
 require 'engine.php';
 
 
-if(ISSET($_POST['save'])){
+if(ISSET($_POST['encrypt'])){
 
-    $username= $_POST['username'];
-    $ip_address= $_POST['ip_address'];
+    // return from functions to encrypt username and ipaddress
+    $username= getEncryptedUser();
+    $ip_address= getEncryptedUserIpAddr();
 
     try {
         $pdo = new PDO($dsn, $user, $password);
