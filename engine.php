@@ -46,8 +46,4 @@ function getEncryptedUserIpAddr(){
 }
 
 
-
-
-
-
 ?>
