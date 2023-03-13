@@ -12,7 +12,7 @@
         <meta property="og:title" content="Bora Designs">
         <meta property="og:type" content="website">
         <meta property="og:url" content="#">
-        <meta property="og:description" content="Broa Designs Standard Blank Html Template">
+        <meta property="og:description" content="Bora Designs Standard Blank Html Template">
         <meta property="og:image" content="image.png">
 
         <link rel="icon" href="#">
